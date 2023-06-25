@@ -25,3 +25,7 @@
 .feedback_img {
     border: 3px solid var(--color1);
 }
+
+h2 {
+    color: aqua;
+}
