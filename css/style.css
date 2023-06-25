@@ -1,0 +1,27 @@
+:root {
+    --color1: red;
+    --color2: blue;
+}
+
+.container {
+    max-width: 1170px;
+}
+
+.learning h5 {
+    border: 3px solid aqua;
+    padding: 25px;
+    /* border-radius: 50%; */
+}
+
+
+.author {
+    padding-bottom: 0;
+}
+
+.itd_img {
+    max-width: 260px;
+}
+
+.feedback_img {
+    border: 3px solid var(--color1);
+}
