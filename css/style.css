@@ -151,3 +151,20 @@ footer {
     border-color: #fff;
     box-shadow: none;
 }
+
+[mytitle] {
+    cursor: pointer;
+}
+
+[mytitle]:after {
+    content: '';
+    transition: 1s;
+}
+[mytitle]:hover:after {
+    width: 550px;
+    padding: 5px;
+    content: attr(mytitle);
+    background-color: orange;
+    z-index: 10px;
+    line-height: 1px;
+}
